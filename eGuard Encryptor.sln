@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Basic Express 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eGuard Encryptor", "eGuard Encryptor\eGuard Encryptor.vbproj", "{5A192894-5695-4E14-B1FC-3D20E72428B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4641F772-7B68-4EF9-8AC0-D303C128742D} = {4641F772-7B68-4EF9-8AC0-D303C128742D}
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CpnLib", "CpnLib\CpnLib.vbproj", "{4641F772-7B68-4EF9-8AC0-D303C128742D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "eGuard File Locker", "eGuard File Locker\eGuard File Locker.vbproj", "{365005C3-C5CA-4018-AA27-DC840F0639EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A192894-5695-4E14-B1FC-3D20E72428B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A192894-5695-4E14-B1FC-3D20E72428B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A192894-5695-4E14-B1FC-3D20E72428B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A192894-5695-4E14-B1FC-3D20E72428B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4641F772-7B68-4EF9-8AC0-D303C128742D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4641F772-7B68-4EF9-8AC0-D303C128742D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4641F772-7B68-4EF9-8AC0-D303C128742D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4641F772-7B68-4EF9-8AC0-D303C128742D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365005C3-C5CA-4018-AA27-DC840F0639EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365005C3-C5CA-4018-AA27-DC840F0639EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365005C3-C5CA-4018-AA27-DC840F0639EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365005C3-C5CA-4018-AA27-DC840F0639EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
